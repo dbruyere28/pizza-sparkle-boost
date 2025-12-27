@@ -1,20 +1,18 @@
 import { Gift, Clock, Truck } from "lucide-react";
 import { Button } from "@/components/ui/button";
-
 const PromoSection = () => {
-  return (
-    <section className="py-16 relative overflow-hidden">
+  return <section className="py-16 relative overflow-hidden">
       {/* Background with diagonal stripes */}
       <div className="absolute inset-0 bg-gradient-to-r from-primary via-primary/90 to-secondary" />
       <div className="absolute inset-0 opacity-10" style={{
-        backgroundImage: `repeating-linear-gradient(
+      backgroundImage: `repeating-linear-gradient(
           45deg,
           transparent,
           transparent 20px,
           rgba(255,255,255,0.1) 20px,
           rgba(255,255,255,0.1) 40px
         )`
-      }} />
+    }} />
 
       <div className="container mx-auto px-4 relative z-10">
         <div className="grid md:grid-cols-2 gap-8 items-center">
@@ -52,15 +50,7 @@ const PromoSection = () => {
               </div>
             </div>
 
-            <div className="bg-primary-foreground/10 backdrop-blur-sm border border-primary-foreground/20 rounded-xl p-6 flex items-center gap-4 hover:bg-primary-foreground/20 transition-colors">
-              <div className="w-14 h-14 rounded-full bg-accent flex items-center justify-center shrink-0">
-                <Clock className="w-7 h-7 text-accent-foreground" />
-              </div>
-              <div>
-                <h3 className="font-display text-xl text-primary-foreground">Prêt en 20 min</h3>
-                <p className="text-primary-foreground/70">Click & Collect rapide pour les pressés</p>
-              </div>
-            </div>
+            
 
             <div className="bg-primary-foreground/10 backdrop-blur-sm border border-primary-foreground/20 rounded-xl p-6 flex items-center gap-4 hover:bg-primary-foreground/20 transition-colors">
               <div className="w-14 h-14 rounded-full bg-accent flex items-center justify-center shrink-0">
@@ -74,8 +64,6 @@ const PromoSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default PromoSection;
