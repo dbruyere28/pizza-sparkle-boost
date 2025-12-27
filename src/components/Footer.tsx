@@ -32,8 +32,8 @@ const Footer = () => {
           <div className="space-y-4">
             <h4 className="font-display text-xl text-foreground">Contact</h4>
             <div className="space-y-3">
-              <a href="tel:0237463555" className="flex items-center gap-3 text-muted-foreground hover:text-accent transition-colors">02 37 42 01 01<Phone className="w-5 h-5 text-primary" />
-                <span>02 37 46 35 55</span>
+              <a className="flex items-center gap-3 text-muted-foreground hover:text-accent transition-colors" href="tel:0237420101">02 37 42 01 01<Phone className="w-5 h-5 text-primary" />
+                
               </a>
               <a href="mailto:contact@american-pizza.net" className="flex items-center gap-3 text-muted-foreground hover:text-accent transition-colors">
                 <Mail className="w-5 h-5 text-primary" />
