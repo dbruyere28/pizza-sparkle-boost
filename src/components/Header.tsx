@@ -1,16 +1,14 @@
 import { Phone, MapPin, Clock } from "lucide-react";
 import { Button } from "@/components/ui/button";
-
 const Header = () => {
-  return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-background/90 backdrop-blur-md border-b border-border/50">
+  return <header className="fixed top-0 left-0 right-0 z-50 bg-background/90 backdrop-blur-md border-b border-border/50">
       {/* Top bar with info */}
       <div className="bg-primary/10 py-2">
         <div className="container mx-auto px-4 flex flex-wrap justify-center md:justify-between items-center gap-4 text-sm">
           <div className="flex items-center gap-6">
             <a href="tel:0237463555" className="flex items-center gap-2 text-foreground/80 hover:text-accent transition-colors">
               <Phone className="w-4 h-4 text-accent" />
-              <span>02 37 46 35 55</span>
+              <span>02 37 42 01 01 </span>
             </a>
             <div className="hidden sm:flex items-center gap-2 text-foreground/80">
               <MapPin className="w-4 h-4 text-primary" />
@@ -60,8 +58,6 @@ const Header = () => {
           </Button>
         </div>
       </nav>
-    </header>
-  );
+    </header>;
 };
-
 export default Header;
