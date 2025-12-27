@@ -94,9 +94,7 @@ const HeroSection = () => {
               </div>
 
               {/* Floating badges */}
-              <div className="absolute -top-4 -right-4 bg-accent text-accent-foreground px-4 py-2 rounded-full font-bold text-sm shadow-lg animate-bounce-subtle">
-                BEST SELLER
-              </div>
+              <div className="absolute -top-4 -right-4 bg-accent text-accent-foreground px-4 py-2 rounded-full font-bold text-sm shadow-lg animate-bounce-subtle">LA PIZZA DU MOIS</div>
               
             </div>
           </div>
