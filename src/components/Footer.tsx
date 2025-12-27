@@ -1,8 +1,6 @@
 import { Phone, MapPin, Clock, Facebook, Instagram, Mail } from "lucide-react";
-
 const Footer = () => {
-  return (
-    <footer id="contact" className="bg-card border-t border-border pt-16 pb-8">
+  return <footer id="contact" className="bg-card border-t border-border pt-16 pb-8">
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           {/* Brand */}
@@ -34,8 +32,7 @@ const Footer = () => {
           <div className="space-y-4">
             <h4 className="font-display text-xl text-foreground">Contact</h4>
             <div className="space-y-3">
-              <a href="tel:0237463555" className="flex items-center gap-3 text-muted-foreground hover:text-accent transition-colors">
-                <Phone className="w-5 h-5 text-primary" />
+              <a href="tel:0237463555" className="flex items-center gap-3 text-muted-foreground hover:text-accent transition-colors">02 37 42 01 01<Phone className="w-5 h-5 text-primary" />
                 <span>02 37 46 35 55</span>
               </a>
               <a href="mailto:contact@american-pizza.net" className="flex items-center gap-3 text-muted-foreground hover:text-accent transition-colors">
@@ -44,7 +41,8 @@ const Footer = () => {
               </a>
               <div className="flex items-start gap-3 text-muted-foreground">
                 <MapPin className="w-5 h-5 text-primary shrink-0 mt-0.5" />
-                <span>123 Rue de la Pizza<br />28100 Dreux, France</span>
+                <span>123 Rue Saint Jean
+28100 Dreux, France<br />28100 Dreux, France</span>
               </div>
             </div>
           </div>
@@ -91,8 +89,6 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;

@@ -1,9 +1,7 @@
 import { ArrowRight, Star, Flame } from "lucide-react";
 import { Button } from "@/components/ui/button";
-
 const HeroSection = () => {
-  return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-32 pb-20">
+  return <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-32 pb-20">
       {/* Background effects */}
       <div className="absolute inset-0 bg-gradient-to-br from-background via-secondary/20 to-background" />
       <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-primary/20 rounded-full blur-3xl" />
@@ -11,8 +9,12 @@ const HeroSection = () => {
       
       {/* Decorative elements */}
       <div className="absolute top-40 left-10 text-6xl animate-float opacity-30">🍕</div>
-      <div className="absolute bottom-40 right-10 text-5xl animate-float opacity-30" style={{ animationDelay: '2s' }}>🌶️</div>
-      <div className="absolute top-60 right-20 text-4xl animate-float opacity-20" style={{ animationDelay: '4s' }}>🧀</div>
+      <div className="absolute bottom-40 right-10 text-5xl animate-float opacity-30" style={{
+      animationDelay: '2s'
+    }}>🌶️</div>
+      <div className="absolute top-60 right-20 text-4xl animate-float opacity-20" style={{
+      animationDelay: '4s'
+    }}>🧀</div>
 
       <div className="container mx-auto px-4 relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -25,7 +27,9 @@ const HeroSection = () => {
             </div>
 
             {/* Main heading */}
-            <h2 className="font-display text-5xl md:text-7xl lg:text-8xl leading-tight animate-slide-up" style={{ animationDelay: '0.1s' }}>
+            <h2 className="font-display text-5xl md:text-7xl lg:text-8xl leading-tight animate-slide-up" style={{
+            animationDelay: '0.1s'
+          }}>
               <span className="text-foreground">LA VRAIE</span>
               <br />
               <span className="text-primary neon-text">PIZZA</span>
@@ -34,23 +38,25 @@ const HeroSection = () => {
             </h2>
 
             {/* Subtitle */}
-            <p className="text-lg md:text-xl text-muted-foreground max-w-lg mx-auto lg:mx-0 animate-slide-up" style={{ animationDelay: '0.2s' }}>
-              Pâte généreuse, ingrédients frais et recettes authentiques depuis plus de 20 ans à Dreux.
-            </p>
+            <p className="text-lg md:text-xl text-muted-foreground max-w-lg mx-auto lg:mx-0 animate-slide-up" style={{
+            animationDelay: '0.2s'
+          }}>Pâte fine ou épaisse, ingrédients frais et recettes authentiques depuis plus de 20 ans à Dreux.</p>
 
             {/* Rating */}
-            <div className="flex items-center justify-center lg:justify-start gap-4 animate-slide-up" style={{ animationDelay: '0.3s' }}>
+            <div className="flex items-center justify-center lg:justify-start gap-4 animate-slide-up" style={{
+            animationDelay: '0.3s'
+          }}>
               <div className="flex items-center gap-1">
-                {[...Array(5)].map((_, i) => (
-                  <Star key={i} className="w-5 h-5 fill-accent text-accent" />
-                ))}
+                {[...Array(5)].map((_, i) => <Star key={i} className="w-5 h-5 fill-accent text-accent" />)}
               </div>
               <span className="text-foreground font-medium">4.8/5</span>
               <span className="text-muted-foreground">• Plus de 500 avis</span>
             </div>
 
             {/* CTA Buttons */}
-            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start animate-slide-up" style={{ animationDelay: '0.4s' }}>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start animate-slide-up" style={{
+            animationDelay: '0.4s'
+          }}>
               <Button size="lg" className="btn-american text-primary-foreground px-8 py-6 text-lg glow-red group">
                 <span className="relative z-10 flex items-center gap-2">
                   Voir le menu
@@ -64,7 +70,9 @@ const HeroSection = () => {
           </div>
 
           {/* Pizza visual */}
-          <div className="relative flex items-center justify-center animate-fade-in" style={{ animationDelay: '0.5s' }}>
+          <div className="relative flex items-center justify-center animate-fade-in" style={{
+          animationDelay: '0.5s'
+        }}>
             <div className="relative">
               {/* Glow effect behind pizza */}
               <div className="absolute inset-0 bg-gradient-radial from-primary/30 via-transparent to-transparent blur-2xl scale-150" />
@@ -89,9 +97,7 @@ const HeroSection = () => {
               <div className="absolute -top-4 -right-4 bg-accent text-accent-foreground px-4 py-2 rounded-full font-bold text-sm shadow-lg animate-bounce-subtle">
                 BEST SELLER
               </div>
-              <div className="absolute -bottom-4 -left-4 bg-primary text-primary-foreground px-4 py-2 rounded-full font-bold text-sm shadow-lg animate-bounce-subtle" style={{ animationDelay: '1s' }}>
-                -50% 2ème pizza
-              </div>
+              
             </div>
           </div>
         </div>
@@ -104,8 +110,6 @@ const HeroSection = () => {
           <div className="w-1 h-3 bg-accent rounded-full animate-bounce" />
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default HeroSection;
