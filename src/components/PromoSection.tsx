@@ -18,10 +18,7 @@ const PromoSection = () => {
         <div className="grid md:grid-cols-2 gap-8 items-center">
           {/* Left - Main promo */}
           <div className="text-center md:text-left space-y-6">
-            <div className="inline-flex items-center gap-2 bg-accent/20 border border-accent/40 rounded-full px-4 py-2">
-              <Gift className="w-5 h-5 text-accent" />
-              <span className="text-sm font-bold text-primary-foreground uppercase tracking-wider">Offre limitée</span>
-            </div>
+            
             
             <h2 className="font-display text-4xl md:text-6xl text-primary-foreground leading-tight">
               1 PIZZA ACHETÉE
@@ -46,7 +43,7 @@ const PromoSection = () => {
               </div>
               <div>
                 <h3 className="font-display text-xl text-primary-foreground">Livraison gratuite</h3>
-                <p className="text-primary-foreground/70">À partir de 25€ de commande à Dreux</p>
+                <p className="text-primary-foreground/70">À partir de 15€ de commande à 5km autour de Dreux</p>
               </div>
             </div>
 
