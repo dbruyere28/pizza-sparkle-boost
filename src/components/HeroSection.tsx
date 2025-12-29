@@ -90,7 +90,7 @@ const HeroSection = () => {
                   </div>
                 </div>
                 {/* Text overlay */}
-                <span className="absolute text-8xl md:text-9xl opacity-80">🍕</span>
+                <span className="absolute text-8xl md:text-9xl opacity-80">​</span>
               </div>
 
               {/* Floating badges */}
