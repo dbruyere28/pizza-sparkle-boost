@@ -41,8 +41,8 @@ const Footer = () => {
               </a>
               <div className="flex items-start gap-3 text-muted-foreground">
                 <MapPin className="w-5 h-5 text-primary shrink-0 mt-0.5" />
-                <span>13 Rue Saint Jean
-28100 Dreux, France<br />28100 Dreux, France</span>
+                <span>13 Rue Saint Jean 28100 Dreux, France
+                <br />28100 Dreux, France</span>
               </div>
             </div>
           </div>
