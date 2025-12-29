@@ -80,9 +80,7 @@ const Footer = () => {
 
         {/* Bottom bar */}
         <div className="border-t border-border pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-sm text-muted-foreground">
-            © 2024 American Pizza Dreux. Tous droits réservés.
-          </p>
+          <p className="text-sm text-muted-foreground">© 2025 American Pizza Dreux. Tous droits réservés.</p>
           <div className="flex gap-6 text-sm text-muted-foreground">
             <a href="#" className="hover:text-accent transition-colors">Mentions légales</a>
             <a href="#" className="hover:text-accent transition-colors">Politique de confidentialité</a>
