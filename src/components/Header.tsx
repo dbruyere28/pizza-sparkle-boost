@@ -6,9 +6,9 @@ const Header = () => {
       <div className="bg-primary/10 py-2">
         <div className="container mx-auto px-4 flex flex-wrap justify-center md:justify-between items-center gap-4 text-sm">
           <div className="flex items-center gap-6">
-            <a href="tel:0237463555" className="flex items-center gap-2 text-foreground/80 hover:text-accent transition-colors">
+            <a href="tel:0237420101" className="flex items-center gap-2 text-foreground/80 hover:text-accent transition-colors">
               <Phone className="w-4 h-4 text-accent" />
-              <span>02 37 42 01 01 </span>
+              <span>02.37.42.01.01</span>
             </a>
             <div className="hidden sm:flex items-center gap-2 text-foreground/80">
               <MapPin className="w-4 h-4 text-primary" />
